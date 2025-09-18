@@ -20,14 +20,17 @@ const Header = () => {
 
           <ul className="flex gap-20 list-none p-5 m-5 text-white pl-[250px]">
             <Link to='/'> <li className='hover:text-amber-500'>Home</li></Link>
-            <li className='hover:text-amber-500 cursor-pointer'>Shop</li>
+            <Link to='/ansor'> <li className='hover:text-amber-500 cursor-pointer'>Shop</li></Link>
+            
             <Link
               to="/shahri"
               className="hover:text-amber-500"
             >
               About Us
             </Link>
-            <li className='hover:text-amber-500 cursor-pointer'>Service</li>
+             <Link to="/services"><li className='hover:text-amber-500 cursor-pointer'>Service</li></Link>
+
+            
             <Link to="/osnovaabu"><li className='hover:text-amber-500 cursor-pointer'>Blog</li></Link>
 
             {/* <li><Link  to={'/'} >Home </Link></li>

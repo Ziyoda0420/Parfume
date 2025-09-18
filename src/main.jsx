@@ -16,6 +16,8 @@ import Cardabu from './components/Cardabu.jsx';
 import Cardlistabu from './components/Cardlistabu.jsx';
 import Loadmoreabu from './components/Loadmoreabu.jsx';
 import Osnovaabu from './components/Osnovaabu.jsx';
+import Services from './components/Services.jsx';
+import Ansor from './components/Ansor.jsx';
 
 const router = createBrowserRouter([
   {
@@ -61,6 +63,13 @@ const router = createBrowserRouter([
       {
         path: "/osnovaabu",
         element: <Osnovaabu/>,
+      },
+      {
+        path: "/services",
+        element: <Services/>,
+      },{
+        path: "/ansor",
+        element: <Ansor/>,
       }
     ]
   },
